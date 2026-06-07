@@ -1,0 +1,7 @@
+subjek,pengujian_ke,kondisi,bpm_prototype,bpm_prototype_rerata,bpm_oximeter,error_bpm_pct,error_bpm_rerata_pct
+Arbi,1,Normal,110,97,97,13.40,0.00
+Arbi,2,Post Push-up 20x,120,102,102,17.64,0.00
+Maulana,1,Normal,89,92,92,3.20,0.00
+Maulana,2,Post Push-up 20x,140,117,115,21.70,1.73
+Radhi,1,Normal,95,82,84,13.00,2.30
+Radhi,2,Post Push-up 20x,101,96,97,4.10,1.00
