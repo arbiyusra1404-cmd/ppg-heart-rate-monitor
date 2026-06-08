@@ -7,7 +7,7 @@
 [![Sensor](https://img.shields.io/badge/Sensor-MAX30102-red?style=flat-square)](https://datasheets.maximintegrated.com/en/ds/MAX30102.pdf)
 [![Display](https://img.shields.io/badge/Display-OLED%20SSD1306-blue?style=flat-square)](#)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![MAPE](https://img.shields.io/badge/MAPE-0.838%25-brightgreen?style=flat-square)](#hasil-pengujian)
+[![MAPE](https://img.shields.io/badge/MAPE-0.838%25-brightgreen?style=flat-square)](#-hasil-pengujian)
 
 ---
 
@@ -24,6 +24,16 @@ Sensor bekerja dengan memancarkan cahaya **merah (660 nm)** dan **inframerah (94
 - Deteksi otomatis keberadaan jari (threshold IR > 7000)
 - Akurasi tinggi: **MAE = 0.833 BPM**, **MAPE = 0.838%**
 - Sistem *standalone* — tidak membutuhkan koneksi ke PC atau smartphone
+
+---
+
+## 🎥 Demo
+
+<p align="center">
+  <img src="docs/demo_alat.gif" alt="Demo PPG Heart Rate Monitor" width="480"/>
+</p>
+
+<p align="center"><em>Sistem mendeteksi detak jantung secara real-time — ikon jantung berdetak sinkron dengan setiap puncak sinyal PPG</em></p>
 
 ---
 
@@ -85,7 +95,7 @@ SCL       →       A5 (SCL)
 
 1. Clone repo ini:
    ```bash
-   git clone https://github.com/[username]/ppg-heart-rate-monitor.git
+   git clone https://github.com/arbiyusra1404-cmd/ppg-heart-rate-monitor.git
    ```
 2. Buka file `src/ppg_heart_rate.ino` di **Arduino IDE**
 3. Install semua library yang dibutuhkan (lihat bagian di atas)
@@ -154,8 +164,9 @@ Pengujian dilakukan dalam 2 kondisi: **duduk normal** dan **setelah 20x push-up*
 ```
 ppg-heart-rate-monitor/
 ├── src/
-│   └── ppg_heart_rate.ino      # Kode program utama Arduino
+│   └── ppg_heart_rate.ino       # Kode program utama Arduino
 ├── docs/
+│   ├── demo_alat.gif            # Demo GIF hasil percobaan
 │   ├── laporan_akhir.pdf        # Laporan lengkap proyek
 │   └── wiring_diagram.png       # Diagram koneksi hardware
 ├── results/
